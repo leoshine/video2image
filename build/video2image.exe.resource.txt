@@ -1,0 +1,1 @@
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/Leo/Documents/working/DevelopingSpace/OpenCV_playAround/video2image_C++/build/video2image.exe.embed.manifest"

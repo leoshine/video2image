@@ -1,0 +1,98 @@
+#include "opencv2/opencv.hpp"
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <fstream>
+
+using namespace cv;
+using namespace std;
+
+
+int main(int argc, char *argv[]) {
+  cv::VideoCapture cap;
+  int key = 0;
+
+  if(argc < 6) {
+    printf("Not enough parameters! Exit.");
+    //printf("Example: video2image.exe  /path/to/video ");
+  }
+  char* vid = argv[1];
+  cap.open(string(argv[2]));
+  if(!cap.isOpened()) {
+    printf("Error: could not load a camera or video.\n");
+    return -1;
+  }
+
+  char* outputDir = argv[3];
+
+
+
+  ofstream imset_file;
+  imset_file.open(argv[4]);
+  if( !imset_file.is_open() ) {
+    printf("Error: Cannot open image set file.\n");
+    return -1;
+  }
+
+  double rate = atof(argv[5]);
+
+  Mat frame;
+  Mat resizeFrame;
+  cap >> frame;
+
+  //namedWindow("video", 1);
+  //imshow("video", frame);
+  //waitKey(5);
+
+  int fps = int(cap.get(CV_CAP_PROP_FPS));
+  int length = int(cap.get(CV_CAP_PROP_FRAME_COUNT));
+  CvSize size = cvSize((int)cap.get(CV_CAP_PROP_FRAME_WIDTH),(int)cap.get(CV_CAP_PROP_FRAME_HEIGHT));
+  if(fps==0)
+    return -1;
+
+  std::cout << "FPS: " << fps << std::endl;
+  std::cout << "length: " << length << std::endl;
+  std::cout << "int(rate*fps)" << int(rate*fps) << std::endl;
+
+  int i= 1;
+  //while( frame.data) {
+  while( ! frame.empty() ) {
+    //if(frame.empty()){ break; }
+    //imshow("video", frame);
+    //key = waitKey( int(1000/fps) );
+
+    if( (i-1)%(int(rate*fps)) !=0 ) {
+      cap >> frame;
+      i+=1;
+      continue;
+    }
+
+    int x=256;
+    int y=256;
+
+    //frame = cv2.resize(frame,(int(x),int(y)))
+    resize( frame, resizeFrame, Size(x,y) );
+    double minVal, maxVal;
+    minMaxLoc( resizeFrame, &minVal, &maxVal);
+
+    if( minVal == maxVal) {
+      cap >> frame;
+      continue;
+    }
+
+    char imname[100];
+    char impath[300];
+    sprintf( imname, "%s_%d", vid, i );
+    sprintf( impath, "%s/%s.jpg", outputDir, imname );
+    std::cout << imname << std::endl;
+    std::cout << impath << std::endl;
+
+    imwrite( impath, resizeFrame );
+    imset_file << imname <<"\n";
+
+    cap >> frame;
+    i+=1;
+  }
+  imset_file.close();
+  return(0);
+}
