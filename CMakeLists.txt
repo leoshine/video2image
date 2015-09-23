@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project( readvideo )
 
+set(CMAKE_BUILD_TYPE Release)
+MESSAGE("${CMAKE_CXX_FLAGS_RELEASE}")
 
 # ---[ Find Boost ]
 # Cmake has its own "cmake-3.2/Modules/FindBoost.cmake". So you don't has to get one by yourself.
@@ -28,6 +30,8 @@ set(OpenCV_STATIC OFF)
 # 需要系统中有OpenCV_DIR这个变量，该变量路径下需要有OpenCVConfig.cmake, OpenCVConfig-version.cmake
 # 例如：可以在cmd中 set OpenCV_DIR=F:\3rdParty\opencv-2.4.8-win\build
 find_package( OpenCV REQUIRED )
+
+#MESSAGE("OpenCV_LIBS:  "  "${OpenCV_LIBS}")
 
 add_executable( video2image video2image.cpp )
 target_link_libraries( video2image ${OpenCV_LIBS} ${Boost_LIBRARIES})

@@ -88,31 +88,31 @@ video2image_EXTERNAL_OBJECTS =
 
 video2image.exe: CMakeFiles\video2image.dir\video2image.cpp.obj
 video2image.exe: CMakeFiles\video2image.dir\build.make
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_videostab248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ts248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_superres248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_stitching248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_contrib248d.lib
-video2image.exe: N:\ThirdParty\boost_1_59_0\stage\lib\libboost_filesystem-vc110-mt-gd-1_59.lib
-video2image.exe: N:\ThirdParty\boost_1_59_0\stage\lib\libboost_system-vc110-mt-gd-1_59.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_nonfree248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ocl248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_gpu248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_photo248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_objdetect248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_legacy248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_video248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ml248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_calib3d248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_features2d248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_highgui248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_imgproc248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_flann248d.lib
-video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_core248d.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_videostab248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ts248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_superres248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_stitching248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_contrib248.lib
+video2image.exe: N:\ThirdParty\boost_1_59_0\stage\lib\libboost_filesystem-vc110-mt-1_59.lib
+video2image.exe: N:\ThirdParty\boost_1_59_0\stage\lib\libboost_system-vc110-mt-1_59.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_nonfree248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ocl248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_gpu248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_photo248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_objdetect248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_legacy248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_video248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ml248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_calib3d248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_features2d248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_highgui248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_imgproc248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_flann248.lib
+video2image.exe: N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_core248.lib
 video2image.exe: CMakeFiles\video2image.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable video2image.exe"
 	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\video2image.dir\objects1.rsp @<<
- /out:video2image.exe /implib:video2image.lib /pdb:C:\Users\Leo\Documents\working\DevelopingSpace\OpenCV_playAround\video2image_C++\build\video2image.pdb /version:0.0   /machine:x64 /debug /INCREMENTAL /subsystem:console  N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_videostab248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ts248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_superres248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_stitching248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_contrib248d.lib N:\ThirdParty\boost_1_59_0\stage\lib\libboost_filesystem-vc110-mt-gd-1_59.lib N:\ThirdParty\boost_1_59_0\stage\lib\libboost_system-vc110-mt-gd-1_59.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_nonfree248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ocl248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_gpu248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_photo248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_objdetect248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_legacy248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_video248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ml248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_calib3d248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_features2d248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_highgui248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_imgproc248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_flann248d.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_core248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:video2image.exe /implib:video2image.lib /pdb:C:\Users\Leo\Documents\working\DevelopingSpace\OpenCV_playAround\video2image_C++\build\video2image.pdb /version:0.0   /machine:x64 /INCREMENTAL:NO /subsystem:console  N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_videostab248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ts248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_superres248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_stitching248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_contrib248.lib N:\ThirdParty\boost_1_59_0\stage\lib\libboost_filesystem-vc110-mt-1_59.lib N:\ThirdParty\boost_1_59_0\stage\lib\libboost_system-vc110-mt-1_59.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_nonfree248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ocl248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_gpu248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_photo248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_objdetect248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_legacy248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_video248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_ml248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_calib3d248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_features2d248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_highgui248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_imgproc248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_flann248.lib N:\working\InstallPackages\opencv\opencv-2.4.8-win\build\x64\vc11\lib\opencv_core248.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.

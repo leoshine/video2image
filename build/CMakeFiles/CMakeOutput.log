@@ -50,53 +50,53 @@ The CXX compiler identification is MSVC, found in "C:/Users/Leo/Documents/workin
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Leo/Documents/working/DevelopingSpace/OpenCV_playAround/video2image_C++/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec777551912\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec777551912.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec777551912.dir\build
+Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec3565238415\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec3565238415.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec3565238415.dir\build
 	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report C:\Users\Leo\Documents\working\DevelopingSpace\OpenCV_playAround\video2image_C++\build\CMakeFiles\CMakeTmp\CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec777551912.dir/testCCompiler.c.obj
-	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm4203.tmp
+Building C object CMakeFiles/cmTryCompileExec3565238415.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm5174.tmp
 testCCompiler.c
-Linking C executable cmTryCompileExec777551912.exe
-	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec777551912.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm456E.tmp
+Linking C executable cmTryCompileExec3565238415.exe
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec3565238415.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm54C0.tmp
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Leo/Documents/working/DevelopingSpace/OpenCV_playAround/video2image_C++/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec328905234\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec328905234.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec328905234.dir\build
+Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec3300951502\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec3300951502.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec3300951502.dir\build
 	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report C:\Users\Leo\Documents\working\DevelopingSpace\OpenCV_playAround\video2image_C++\build\CMakeFiles\CMakeTmp\CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec328905234.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm4FF8.tmp
+Building C object CMakeFiles/cmTryCompileExec3300951502.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm5C4D.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec328905234.exe
-	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec328905234.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm5121.tmp
+Linking C executable cmTryCompileExec3300951502.exe
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec3300951502.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm5D29.tmp
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Leo/Documents/working/DevelopingSpace/OpenCV_playAround/video2image_C++/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec2288695138\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec2288695138.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec2288695138.dir\build
+Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec33747058\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec33747058.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec33747058.dir\build
 	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report C:\Users\Leo\Documents\working\DevelopingSpace\OpenCV_playAround\video2image_C++\build\CMakeFiles\CMakeTmp\CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2288695138.dir/testCXXCompiler.cxx.obj
-	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm56DB.tmp
+Building CXX object CMakeFiles/cmTryCompileExec33747058.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm6208.tmp
 testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec2288695138.exe
-	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec2288695138.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm5842.tmp
+Linking CXX executable cmTryCompileExec33747058.exe
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec33747058.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm62F3.tmp
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Leo/Documents/working/DevelopingSpace/OpenCV_playAround/video2image_C++/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec3980674334\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec3980674334.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec3980674334.dir\build
+Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec3146854050\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec3146854050.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec3146854050.dir\build
 	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report C:\Users\Leo\Documents\working\DevelopingSpace\OpenCV_playAround\video2image_C++\build\CMakeFiles\CMakeTmp\CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3980674334.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm5CF3.tmp
+Building CXX object CMakeFiles/cmTryCompileExec3146854050.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm683F.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec3980674334.exe
-	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec3980674334.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm5DED.tmp
+Linking CXX executable cmTryCompileExec3146854050.exe
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec3146854050.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm691A.tmp
 
 
 
@@ -104,14 +104,14 @@ Linking CXX executable cmTryCompileExec3980674334.exe
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Leo/Documents/working/DevelopingSpace/OpenCV_playAround/video2image_C++/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec483844815\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec483844815.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec483844815.dir\build
+Run Build Command:"nmake" "/NOLOGO" "cmTryCompileExec2440998294\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\BIN\amd64\nmake.exe" -f CMakeFiles\cmTryCompileExec2440998294.dir\build.make /nologo -L                  CMakeFiles\cmTryCompileExec2440998294.dir\build
 	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report C:\Users\Leo\Documents\working\DevelopingSpace\OpenCV_playAround\video2image_C++\build\CMakeFiles\CMakeTmp\CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec483844815.dir/feature_tests.cxx.obj
-	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm6433.tmp
+Building CXX object CMakeFiles/cmTryCompileExec2440998294.dir/feature_tests.cxx.obj
+	C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\cl.exe  @C:\Users\Leo\AppData\Local\Temp\nm6ED4.tmp
 feature_tests.cxx
-Linking CXX executable cmTryCompileExec483844815.exe
-	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec483844815.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm651E.tmp
+Linking CXX executable cmTryCompileExec2440998294.exe
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe C:\PROGRA~2\MICROS~3.0\VC\bin\amd64\link.exe /nologo @CMakeFiles\cmTryCompileExec2440998294.dir\objects1.rsp @C:\Users\Leo\AppData\Local\Temp\nm6FBF.tmp
 
 
     Feature record: CXX_FEATURE:0cxx_alias_templates
